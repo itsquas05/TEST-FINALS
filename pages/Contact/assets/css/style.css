@@ -1,0 +1,208 @@
+/* contact.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #e91e63;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background: #e91e63;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.contact {
+    padding: 100px 20px 50px 20px;
+    text-align: center;
+}
+
+.contact .max-width {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact .contact-content .column {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.contact .contact-content .column:hover {
+    background: #f5f5f5;
+}
+
+.contact .contact-content .column .icons {
+    margin-top: 10px;
+}
+
+.contact .contact-content .column .icons .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .column .icons .row i {
+    font-size: 24px;
+    color: #e91e63;
+    margin-right: 10px;
+}
+
+.contact .contact-content .column .icons .row .info .head {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact .contact-content .column .icons .row .info .sub-title {
+    font-size: 16px;
+}
+
+.contact .contact-content .column.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-content .column.right form .fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .contact-content .column.right form .fields .field {
+    flex: 1;
+    margin: 5px;
+}
+
+.contact .contact-content .column.right form .field {
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .column.right form .field input,
+.contact .contact-content .column.right form .field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact .contact-content .column.right form .button {
+    text-align: center;
+}
+
+.contact .contact-content .column.right form .button button {
+    background: #e91e63;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact .contact-content .column.right form .button button:hover {
+    background: #c2185b;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.footer-icons {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.footer-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    color: #e91e63;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
