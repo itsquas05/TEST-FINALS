@@ -55,18 +55,17 @@
 
 This project is about creating my own portfolio in a website using HTML, CSS, and JavaScript.
 
-Guiding Question:
-- What is the project
-The project involves building a personal portfolio website with six unique page designs, each featuring different elements. The home page highlights the layout and design of the landing page with links on my social medias and animated text and a button which leads to my resume. On the About page, you'll find my personal information and a profile description with animations. The Talents & Services page showcases the abilities I've honed. The FAQs page displays frequently asked questions about me and the answers to those questions. The Portfolio page displays the past projects I've completed, and the Contacts page includes a form for emailing me, along with my contact details and social media links and a copyright claims.
-- Whats the purpose
-The purpose of this project is to test and use my skills in HTML and CSS, as well as to try using JavaScript for making a website that looks aesthetically pleasing and responsive.
-- What are key components
-This website is a scrolling website that is responsive, packed with animations.
-- What technology used and how it is used
-HTML, CSS, AND JAVASCRIPT
+
+-The project involves building a personal portfolio website with six unique page designs, each featuring different elements. The home page highlights the layout and design of the landing page with links on my social medias and animated text and a button which leads to my resume. On the About page, you'll find my personal information and a profile description with animations. The Talents & Services page showcases the abilities I've honed. The FAQs page displays frequently asked questions about me and the answers to those questions. The Portfolio page displays the past projects I've completed, and the Contacts page includes a form for emailing me, along with my contact details and social media links and a copyright claims.
+
+-The purpose of this project is to test and use my skills in HTML and CSS, as well as to try using JavaScript for making a website that looks aesthetically pleasing and responsive.
+
+-This website is a scrolling website that is responsive, packed with animations.
+
+The technologies used in this project are: HTML, CSS, and JavaScript.
 
 ### Key Components
-- MultiPage Scrolling Website
+- MultiPage Website
 - Parallax transition
 - Resume/Portfolio like website
 
