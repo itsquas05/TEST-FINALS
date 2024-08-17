@@ -60,7 +60,7 @@ This project is about creating my own portfolio in a website using HTML, CSS, an
 
 -The purpose of this project is to test and use my skills in HTML and CSS, as well as to try using JavaScript for making a website that looks aesthetically pleasing and responsive.
 
--This website is a scrolling website that is responsive, packed with animations.
+-This website is a multi paged website that is responsive, packed with animations.
 
 The technologies used in this project are: HTML, CSS, and JavaScript.
 
